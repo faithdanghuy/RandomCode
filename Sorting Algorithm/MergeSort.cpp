@@ -27,19 +27,3 @@ void mergeSort(int arr[], int len){
     mergeSort(right,len - mid);
     merge(arr,left,right,mid,len - mid);
 }
-
-void print(int arr[], int n){
-    for(int i = 0; i < n; i++)
-        cout<<arr[i]<<" ";
-    cout<<endl;
-}
-
-// For sorting large amount of numbers
-int main(){
-    int arr[] = {1,4,7,2,8,10,3};
-    int n = sizeof(arr)/sizeof(arr[0]);
-    mergeSort(arr,n);
-    print(arr,n);
-    system("pause");
-    return 0;
-}
