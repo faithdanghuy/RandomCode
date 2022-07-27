@@ -27,18 +27,3 @@ void quickSort(int arr[], int low, int high){
     quickSort(arr,low,leftIndex - 1);
     quickSort(arr,leftIndex + 1,high);
 }
-
-void print(int arr[], int n){
-    for(int i = 0; i < n; i++)
-        cout<<arr[i]<<" ";
-    cout<<endl;
-}
-
-int main(){
-    int arr[] = {1,4,7,2,8,10,3};
-    int n = sizeof(arr)/sizeof(arr[0]);
-    quickSort(arr,0,n - 1);
-    print(arr,n);
-    system("pause");
-    return 0;
-}
