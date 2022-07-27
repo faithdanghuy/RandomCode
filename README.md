@@ -1,4 +1,4 @@
-# RandomCode
+# Random Code
 Just some of my random codes
 
 Codes that I gather from learning DSA in university
