@@ -35,18 +35,3 @@ void bubbleSort2(int a[], int l, int r) {
 		}
 	if(!sorted) bubbleSort2(a, l + 1, r);
 }
-
-void print(int arr[], int n){
-    for(int i = 0; i < n; i++)
-        cout<<arr[i]<<" ";
-    cout<<endl;
-}
-
-int main(){
-    int arr[] = {1,4,7,2,8,10,3};
-    int n = sizeof(arr)/sizeof(arr[0]);
-    bubbleSort(arr,n);
-    print(arr,n);
-    system("pause");
-    return 0;
-}
