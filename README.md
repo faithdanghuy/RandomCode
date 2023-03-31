@@ -1,6 +1,2 @@
-# Random Code
-Just some of my random codes
-
-Codes that I gather from learning DSA in university
-
-For learning and reviewing purposes only
+# Sorting Algorithm
+Sorting Algorithm implemented in C++ for studying purpose
